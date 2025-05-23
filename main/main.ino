@@ -3,7 +3,6 @@
 #include "pwm_driver.h"
 #include "timer_driver.h"
 
-// Simulink logic
 extern "C" {
   #include "indicator_logic.h"
 }
@@ -29,7 +28,6 @@ void loop() {
   unsigned long currentTime = millis();
 
   if (is_100ms_elapsed()) {
-    // Read buttons and blink state
     bool left = read_left_button() == LOW;
     bool right = read_right_button() == LOW;
     bool blink = get_blink300_state();
