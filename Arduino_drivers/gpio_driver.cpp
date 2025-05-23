@@ -1,7 +1,6 @@
 #include <Arduino.h>
 #include "gpio_driver.h"
 
-// Define pin numbers
 const int LEFT_BUTTON_PIN = 2;
 const int RIGHT_BUTTON_PIN = 3;
 const int LEFT_LED_PIN = 5;
