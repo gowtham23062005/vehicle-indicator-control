@@ -42,8 +42,8 @@ Develop a real-time vehicle indicator system that supports:
 |----------------|-------------|
 | Left Button    | 2           |
 | Right Button   | 3           |
-| Left LED       | 8           |
-| Right LED      | 9           |
+| Left LED       | 4           |
+| Right LED      | 5           |
 
 ---
 
