@@ -6,7 +6,8 @@ This project implements a vehicle indicator control system using **MATLAB Simuli
 
 ## Project Files
 
-- `indicator_logic.c` – Core logic generated from Simulink
+- `Arduino drivers`- gpio_driver, pwm_driver, uart_driver, timer_driver
+- `indicator_logic.c` - Core logic generated from Simulink
 - `indicator_logic.h` – Header for logic functions and data structures
 - `main.ino` – Arduino sketch that integrates the logic and handles hardware
 - `README.md` – Project documentation
@@ -70,3 +71,8 @@ Develop a real-time vehicle indicator system that supports:
 4. Upload the sketch to your Arduino Uno.
 5. Open Serial Monitor (baud rate: 9600) to view logs.
 6. Press buttons to test each mode.
+
+## Software Tools
+
+1. MATLAB SIMULINK
+2. ARDUINO IDE
